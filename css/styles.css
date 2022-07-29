@@ -1,16 +1,9 @@
 /*  topbanner starts*/
-#my-carousel-text {
-    padding-bottom: 200px;
-    background-repeat: no-repeat;
-}
+@media screen and (max-width:600px) {
+    .carousel-item img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
 
-.image {
-    width: 100%;
-    height: 750px;
-    filter: brightness(60%);
-}
-
-.flex-sm-column {
-    width: 100%;
-    height: 100%;
 }
